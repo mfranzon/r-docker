@@ -1,5 +1,5 @@
 services:
-  shiny-app11:
+  shiny-app:
     build:
       context: .
       dockerfile: Dockerfile
