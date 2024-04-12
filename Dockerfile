@@ -1,7 +1,7 @@
-# Use an official R runtime as a parent image
-FROM rocker/shiny:latest
+# Use the official R base image as a parent image
+FROM r-base:latest
 
-# Install R packages
+# Install shiny package
 RUN R -e "install.packages('shiny')"
 
 # Set new workdir
